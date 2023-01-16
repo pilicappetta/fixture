@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 5;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(46, 41, 41);
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10;
+}
+
+nav {
+    width:90%;
+    padding-top: 2%
+}
+
+nav ul  {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px ;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    border-radius: 16px;
+    background-color: rgb(216, 160, 7);
+}
+
+.title-fixture {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.title-fixture h1 {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.title-fixture span {
+    color: rgb(216, 160, 7);
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: rgb(216, 160, 7);
+}
+
+.section-groups {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.groups {
+    width: 25%;
+    padding: 11px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(216, 160, 7);
+}
+
+.section-groups p {
+    margin: auto;
+    width: 104.90%;
+    font-weight: 600;
+    text-align: center;
+    margin: 1px;
+    padding: 30px;
+}
+
+.border {
+    border-radius: 80px;
+}
+
+.qatar {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.ecuador {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.senegal {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.netherlands {
+    background-color:rgb(121, 203, 231);
+    color: black
+}
+
+.england {
+    background-color: white;
+    color: black
+}
+
+.iran {
+   background-color: white;
+   color:rgb(226, 180, 30)
+}
+
+.usa {
+    background-color: white;
+    color:rgb(226, 180, 30)
+}
+
+.wales {
+    background-color: white;
+    color: black
+}
+
+.argentina {
+    background-color: white;
+    color:black
+}
+
+.saudi-arabia {
+    background-color: white;
+    color:rgb(226, 180, 30)
+}
+
+.mexico {
+    background-color: white;
+    color:rgb(226, 180, 30)
+}
+
+.poland {
+    background-color: white;
+    color: black
+}
+
+.france {
+    background-color: rgb(121, 203, 231);
+    color:black
+}
+
+.australia {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.denmark {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.tunisia {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.spain {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.costa-rica {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.germany{
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.japan {
+    background-color: rgb(121, 203, 231);
+    color: black
+}
+
+.belgium {
+    background-color: white;
+}
+
+.canada {
+    background-color: white;
+    color: rgb(226, 180, 30)
+}
+
+.morocco {
+    background-color:white;
+    color: rgb(226, 180, 30)
+}
+
+.croacia {
+    background-color: white;
+}
+
+.brazil {
+    background-color: white;
+}
+
+.serbia {
+    background-color: white;
+    color: rgb(226, 180, 30)
+}
+.switzerland {
+    background-color:white;
+    color:rgb(226, 180, 30)
+}
+
+.cameroon {
+    background-color: white;
+}
+
+.portugal {
+    background-color: rgb(121, 203, 231);
+}
+
+.ghana {
+    background-color: rgb(121, 203, 231);
+}
+
+.uruguay {
+    background-color: rgb(121, 203, 231);
+}
+
+.south-korea {
+    background-color:rgb(121, 203, 231);
+}
+
+.round16 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.round16 .groups-round16 {
+    display: flex;
+    color: white;
+}
+
+.subgroups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groups-round16 p {
+    padding: 20px;
+    background-color: black;
+    margin: 30px;
+    border-radius: 40px;
+}
+
+.quarters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.quarters div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.quarters p {
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.semis {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.semis div {
+    display: flex;
+    align-items: center;
+}
+
+.semis p {
+    background-color: black;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.final div {
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-bottom: 80px;
+}
+
+.final div p {
+    padding: 80px;
+    margin: 40px;
+    border-radius: 40px;
+    background-color: rgb(216, 160, 7);
+}
+
+.final div img {
+    width: 15%;
+}
+
+.champion {
+    display: flex;
+    justify-content: center;
+}
+
+.champion p {
+    padding: 80px;
+    color: white;
+    background-color: rgb(216, 160, 7);
+    margin-bottom: 80px;
+    border-radius: 40px;
+}
